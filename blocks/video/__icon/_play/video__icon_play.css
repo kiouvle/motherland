@@ -1,0 +1,10 @@
+.video__icon_play {
+    position: absolute;
+    height: 41px;
+    top: 30px;
+    left: 30px;
+}
+
+.video__icon_play:hover {
+    opacity: 0.7;
+}

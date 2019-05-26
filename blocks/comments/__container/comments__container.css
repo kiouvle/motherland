@@ -1,0 +1,6 @@
+@import url('/blocks/comment/comment.css');
+
+.comments__container {
+    display: flex;
+    justify-content: space-between;
+}

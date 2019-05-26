@@ -1,0 +1,8 @@
+.header__lang_ru {
+    margin-right: 18px;
+    color: white;
+}
+
+.header__lang_ru:hover {
+    opacity: 0.7;
+}

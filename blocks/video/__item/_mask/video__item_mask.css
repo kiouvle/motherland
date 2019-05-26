@@ -1,0 +1,9 @@
+.video__item_mask {
+    position: absolute;
+    background: black;
+    width: 583px;
+    height: 323px;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}

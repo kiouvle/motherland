@@ -1,0 +1,9 @@
+@import url('/blocks/header/__lang/_ru/header__lang_ru.css');
+@import url('/blocks/header/__lang/_en/header__lang_en.css');
+
+.header__lang {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    line-height: 23px;
+}

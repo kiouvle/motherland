@@ -1,0 +1,19 @@
+.cover__title {
+    position: absolute;
+    top: 274px;
+    left: 40px;
+    width: 1095px;
+    font-size: 72px;
+    line-height: 78px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+
+.cover__title:hover {
+    opacity: 0.7;
+}

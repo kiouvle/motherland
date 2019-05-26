@@ -1,0 +1,7 @@
+.emblem__item {
+    width: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

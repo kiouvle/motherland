@@ -1,0 +1,7 @@
+@import url('./_caption/intro__text_caption.css');
+
+.intro__text {
+    width: 683px;
+    font-size: 14px;
+    line-height: 23px;
+}

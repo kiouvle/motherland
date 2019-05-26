@@ -1,0 +1,9 @@
+@import url('./__container/additional__container.css');
+@import url('./__heading/additional__heading.css');
+@import url('./__item/additional__item.css');
+@import url('./__text/additional__text.css');
+
+.additional {
+    max-width: 1184px;
+    margin: 0 auto 102px auto;
+}

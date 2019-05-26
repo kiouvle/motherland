@@ -1,0 +1,15 @@
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__title/cover__title.css');
+@import url('./__image/cover__image.css');
+
+.cover {
+    max-width: 1184px;
+    margin: 0 auto 82px auto;
+    position: relative;
+    background-color: rgba(42, 44, 47, 0.3);
+}
+
+.cover:hover .cover__image_darkening {
+    opacity: 0.8;
+
+}

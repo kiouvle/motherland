@@ -1,0 +1,10 @@
+.cover__image_darkening {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1184px;
+    height: 594px;
+    background: #000000;
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}

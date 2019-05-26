@@ -1,0 +1,12 @@
+@import url('./_arakul/additional__item_arakul.css');
+@import url('./_cherepovets/additional__item_cherepovets.css');
+@import url('./_lenivets/additional__item_lenivets.css');
+@import url('./_novoros/additional__item_novoros.css');
+@import url('./_mask/additional__item_mask.css');
+
+.additional__item {
+    width: 284px;
+    height: 330px;
+    border-radius: 5px;
+    position: relative;
+}

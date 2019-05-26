@@ -1,0 +1,6 @@
+@import url('__container/comments__container.css');
+
+.comments {
+    margin: 0 auto 102px auto;
+    max-width: 1184px;
+}

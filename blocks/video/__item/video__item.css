@@ -1,0 +1,19 @@
+@import url('./_kamchatka/video__item_kamchatka.css');
+@import url('./_observatory/video__item_observatory.css');
+@import url('./_darkening/video__item_darkening.css');
+@import url('./_mask/video__item_mask.css');
+
+.video__item {
+    width: 583px;
+    height: 323px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+.video__item:hover .video__item_darkening {
+    opacity: 0.8;
+
+}
