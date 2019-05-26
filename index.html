@@ -10,9 +10,9 @@
     <div class="page">
         <header class="header">
             <img class="header__logo" src="images/logo.svg" alt="logo">
-            <div class="header__lang">
-                <a href="#ru" class="header__lang_ru">Ru</a>
-                <a href="#en" class="header__lang_en">En</a>
+            <div class="header__langs">
+                <a href="#ru" class="header__lang header__lang_selected">Ru</a>
+                <a href="#en" class="header__lang">En</a>
             </div>
         </header> 
         <main class="content">
@@ -27,7 +27,10 @@
                 <p class="intro__subtitle">Зачем путешествовать по своему дому</p>
                 <div class="intro__content-row">
                     <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-                    <p class="intro__text_caption"><span class="span">Автор текста:</span> N.N.<br/><span class="span">Дата:</span> Май, 2019</p>
+                    <div>
+                        <p class="intro__text_caption"><span class="span">Автор текста:</span> N.N.</p>
+                        <p class="intro__text_caption"><span class="span">Дата:</span> Май, 2019</p>
+                    </div>
                 </div>
                 <ul class="intro__list">
                     <li class="intro__list_item"><span class="span">Часовых поясов</span> 11</li>
@@ -166,18 +169,18 @@
                 <div class="comments__container">
                     <div class="comment">
                         <img class="comment__image" src="/images/lyagushkin.jpg" alt="lyagushkin">
-                        <p class="comment__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</p>
-                        <p class="comment__author">Виктор Лягушкин</p>
+                        <blockquote class="comment__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</blockquote>
+                        <cite class="comment__author">Виктор Лягушкин</cite>
                     </div>
                     <div class="comment">
                         <img class="comment__image" src="/images/hafizov.jpg" alt="hafizov">
-                        <p class="comment__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»</p>
-                        <p class="comment__author">Иван Хафизов</p>
+                        <blockquote class="comment__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»</blockquote>
+                        <cite class="comment__author">Иван Хафизов</cite>
                     </div>
                     <div class="comment">
                         <img class="comment__image" src="/images/maksimshin.jpg" alt="maksimshin">
-                        <p class="comment__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»</p>
-                        <p class="comment__author">Сергей Максимишин</p>
+                        <blockquote class="comment__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»</blockquote>
+                        <cite class="comment__author">Сергей Максимишин</cite>
                     </div>
                 </div>
             </section>
@@ -236,7 +239,7 @@
                 <li class="footer__useful_item"><a href="https://calendar.yandex.ru/" class="footer__link">Календарь</a></li>
                 <li class="footer__useful_item"><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
             </ul>
-            <p class="footer__copyright">© 2019. Женя Мальцева</p>
+            <p class="footer__copyright">&#169; 2019. Женя Мальцева</p>
         </footer>
     </div>
 </body>

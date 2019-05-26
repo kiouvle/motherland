@@ -2,5 +2,9 @@
     width: 283px;
     font-size: 10px;
     line-height: 16px;
-    margin-left: 18px;
+    margin: 0 0 0 18px;
+}
+
+.intro__text_caption:first-child {
+    margin-top: 10px;
 }
