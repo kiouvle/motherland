@@ -4,3 +4,19 @@
     font-weight: 900;
     font-style: normal;
 }
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .comment__author {
+        display: block;
+        text-align: center;
+        margin: 16px 0 24px 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .comment__author {
+        display: block;
+        text-align: center;
+        margin: 16px 0 24px 0;
+    }
+}

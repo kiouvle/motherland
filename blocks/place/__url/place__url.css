@@ -1,5 +1,4 @@
 .place__url {
-    width: 484px;
     font-size: 18px;
     line-height: 30px;
     text-decoration-line: underline;
@@ -8,4 +7,10 @@
 
 .place__url:hover {
     opacity: 0.7;
+}
+
+@media (max-width: 425px){
+    .place__url {
+        display: none;
+    }
 }

@@ -1,9 +1,30 @@
 .content-title {
-    width: 800px;
+    max-width: 800px;
     font-size: 72px;
     line-height: 78px;
     padding: 0;
     margin: 0 auto 48px auto;
     font-weight: 900;
     text-align: center;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .content-title {
+        font-size: 7vw;
+        line-height: 6.3vw;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .content-title {
+        font-size: 6vw;
+        line-height: 6.5vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .content-title {
+        font-size: 10vw;
+        line-height: 11vw;
+    }
 }

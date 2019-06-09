@@ -1,4 +1,21 @@
 .lead__image {
-    width: 984px;
-    height: 554px;
+    max-width: 100%;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .lead__image {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .lead__image {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 425px){
+    .lead__image {
+        max-width: 100%;
+    }
 }

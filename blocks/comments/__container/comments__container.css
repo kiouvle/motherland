@@ -4,3 +4,17 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .comments__container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .comments__container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

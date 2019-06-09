@@ -2,4 +2,26 @@
     align-self: flex-end;
     font-size: 14px;
     line-height: 20px;
+    margin: 0;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer__copyright {
+        font-size: 1.3vw;
+        line-height: 1.9vw;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .footer__copyright {
+        font-size: 2vw;
+        line-height: 3.5vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer__copyright {
+        margin-top: 48px;
+        align-self: flex-start;
+    }
 }

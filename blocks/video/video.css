@@ -4,8 +4,27 @@
 @import url('/blocks/video/__item/video__item.css');
 @import url('/blocks/video/__subtitle/video__subtitle.css');
 @import url('/blocks/video/__title/video__title.css');
+@import url('/blocks/video/__info/video__info.css');
 
 .video {
     max-width: 1184px;
     margin: 0 auto 102px auto;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .video {
+        margin: 0 5vw 102px 5vw;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .video {
+        margin: 0 3vw 102px 3vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .video {
+        margin: 0 4vw 64px 4vw;
+    }
 }

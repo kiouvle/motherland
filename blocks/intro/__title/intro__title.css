@@ -2,6 +2,16 @@
     font-size: 54px;
     line-height: 58px;
     margin-top: 80px;
-    margin-bottom: 0;
-    font-weight: bold;
+    margin-bottom: 48px;
+    font-weight: 800;
+    text-align: left;
+}
+
+@media (max-width: 425px) {
+    .intro__title {
+        margin-top: 64px;
+        margin-bottom: 32px;
+        font-size: 32px;
+        line-height: 35px;      
+    }
 }

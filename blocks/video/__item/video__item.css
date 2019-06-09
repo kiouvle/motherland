@@ -4,16 +4,27 @@
 @import url('./_mask/video__item_mask.css');
 
 .video__item {
-    width: 583px;
-    height: 323px;
+    width: 49%;
+    height: 100%;
+    padding-bottom: 27.3%;
     text-decoration: none;
     color: white;
     border-radius: 5px;
     position: relative;
-    
 }
 
 .video__item:hover .video__item_darkening {
     opacity: 0.8;
 
+}
+
+@media (max-width: 425px) {
+    .video__item {
+        width: 100%;
+        padding-bottom: 55.6%;
+    }
+
+    .video__item:first-child {
+        margin-bottom: 8px;
+    }
 }

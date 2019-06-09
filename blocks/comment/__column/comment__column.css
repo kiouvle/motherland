@@ -1,0 +1,17 @@
+.comment__column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .comment__column {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 425px) {
+    .comment__column {
+        flex-direction: column-reverse;
+    }
+}

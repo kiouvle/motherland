@@ -1,7 +1,4 @@
 .video__subtitle {
-    position: absolute;
-    top: 280px;
-    left: 30px;
     font-size: 14px;
     line-height: 15px;
     padding: 0;
@@ -10,4 +7,25 @@
 
 .video__subtitle:hover {
     opacity: 0.7;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .video__subtitle {
+        font-size: 1.3vw;
+        line-height: 1.4vw;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .video__subtitle {
+        font-size: 1.8vw;
+        line-height: 1.9vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .video__subtitle {
+        font-size: 3.2vw;
+        line-height: 3.5vw;
+    }
 }

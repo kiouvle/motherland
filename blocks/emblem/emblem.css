@@ -7,4 +7,5 @@
 .emblem {
     max-width: 1184px;
     margin: 0 auto 85px auto;
+    display: none;
 }

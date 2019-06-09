@@ -2,7 +2,23 @@
 @import url('./_darkening/cover__image_darkening.css');
 
 .cover__image {
-    width: 1184px;
-    height: 594px;
+    max-width: 100%;
+}
 
+@media (min-width: 769px) and (max-width: 1024px) {
+    .cover__image {
+        max-width: 100%
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .cover__image {
+        max-width: 100%
+    }
+}
+
+@media (max-width: 425px) {
+    .cover__image {
+        max-width: 100%
+    }
 }
