@@ -19,7 +19,7 @@
     }
 
     .comment:not(:first-child) {
-        margin-top: 48px;
+        margin-top: 0px;
     }
 }
 
@@ -29,6 +29,6 @@
     }
 
     .comment:not(:first-child) {
-        margin-top: 48px;
+        margin-top: 0px;
     }
 }

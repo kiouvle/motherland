@@ -17,6 +17,7 @@
 
 @media (min-width: 426px) and (max-width: 768px) {
     .content-title {
+        max-width: 60vw;
         font-size: 6vw;
         line-height: 6.5vw;
     }

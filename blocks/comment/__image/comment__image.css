@@ -3,6 +3,7 @@
     height: 97px;
     border-radius: 50%;
     margin-bottom: 42px;
+    margin-top: 71px;
 }
 
 @media (min-width: 426px) and (max-width: 768px) {
@@ -11,6 +12,8 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 66px;
+        margin-bottom: 0px;
     }
 }
 
@@ -20,5 +23,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 42px;
+        margin-bottom: 0;
     }
 }

@@ -2,10 +2,18 @@
     max-width: 1184px;
     display: flex;
     justify-content: space-between;
+    margin-top: 72px;
+}
+
+@media (max-width: 768px) {
+    .video__container {
+        margin-top: 56px;
+    }
 }
 
 @media (max-width: 425px) {
     .video__container {
         flex-wrap: wrap;
+        margin-top: 24px;
     }
 }
