@@ -2,3 +2,16 @@
     display: inline;
     margin-right: 18px;
 }
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .footer__useful_item {
+        margin-right: 2vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer__useful_item {
+        display: block;
+
+    }
+}

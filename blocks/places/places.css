@@ -1,6 +1,24 @@
-@import url('/blocks/place/place.css');
+@import url('../place/place.css');
 
 .places {
     max-width: 984px;
     margin: 0 auto 102px auto;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .places {
+        margin: 0 5vw 102px 5vw;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .places {
+        margin: 0 3vw 102px 3vw;
+    }
+}
+
+@media (max-width: 425px){
+    .places {
+       margin: 0 4vw 64px 4vw;
+    }
 }

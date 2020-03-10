@@ -1,6 +1,25 @@
-@import url('__container/comments__container.css');
+@import url('./__container/comments__container.css');
 
 .comments {
     margin: 0 auto 102px auto;
     max-width: 1184px;
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .comments {
+        margin: 0 5vw 102px 5vw;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .comments {
+        margin: 0 3vw 102px 3vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .comments {
+        margin: 0 4vw 64px 4vw;
+    }
+}
+ 

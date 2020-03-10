@@ -1,11 +1,35 @@
-@import url('/blocks/header/__logo/header__logo.css');
-@import url('/blocks/header/__lang/header__lang.css');
-@import url('/blocks/header/__lang/_selected/header__lang_selected.css');
+@import url('../header/__logo/header__logo.css');
+@import url('../header/__lang/header__lang.css');
+@import url('../header/__lang/_selected/header__lang_selected.css');
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1184px;
+    max-width: 82%;
     margin: 0 auto;
+}
+
+@media (max-width: 1280px) {
+    .header {
+        max-width: 92%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header {
+        margin: 0 48px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .header {
+        margin: 0 24px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header {
+         margin: 0 16px;
+    }
 }

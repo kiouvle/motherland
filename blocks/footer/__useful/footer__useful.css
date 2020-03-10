@@ -1,4 +1,4 @@
-@import url('/blocks/footer/__useful/_item/footer__useful_item.css');
+@import url('../__useful/_item/footer__useful_item.css');
 
 .footer__useful {
     padding-left: 0;

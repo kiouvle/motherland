@@ -1,15 +1,47 @@
 @import url('./__subtitle/cover__subtitle.css');
 @import url('./__title/cover__title.css');
-@import url('./__image/cover__image.css');
+@import url('./__dark/cover__dark.css');
+
 
 .cover {
+    position: relative;
+    padding: 274px 40px 48px 40px;
     max-width: 1184px;
     margin: 0 auto 82px auto;
-    position: relative;
-    background-color: rgba(42, 44, 47, 0.3);
+    text-decoration: none;
+    background-image: url('../../images/cover.jpg');
+    transition: .2s linear;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
-.cover:hover .cover__image_darkening {
-    opacity: 0.8;
+  .cover:hover {
+    opacity: .5;
+    } 
 
-}
+
+@media (max-width: 1280px) {
+    .cover {
+      padding-top: 211px;
+      margin: 0 48px 82px 48px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .cover {
+      padding: 211px 100px 48px 100px;
+      margin: 0 0 82px 0;
+    }
+  }
+  @media (max-width: 768px) {
+    .cover {
+      padding: 21vw 40px 5vw 40px;
+      background-position: center;
+    }
+  }
+  @media (max-width: 375px) {
+    .cover {
+
+    }
+  }

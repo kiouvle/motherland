@@ -3,6 +3,7 @@
     font-size: 10px;
     line-height: 16px;
     margin: 0 0 0 18px;
+    display: none;
 }
 
 .intro__text_caption:first-child {

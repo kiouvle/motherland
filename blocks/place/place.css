@@ -12,3 +12,9 @@
     flex-wrap: wrap;
     margin-bottom: 72px;
 }
+
+@media (max-width: 425px){
+    .place {
+        margin-bottom: 48px;
+    }
+}

@@ -5,4 +5,31 @@
     font-weight: 900;
     margin: 0 40px 0 0;
     padding: 0;
+    align-self: flex-end;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .place__title {
+        width: 45%;
+        font-size: 7vw;
+        line-height: 6vw;
+        margin-right: 58px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .place__title {
+        width: 44%;
+        font-size: 5.4vw;
+        line-height: 5.9vw;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 425px) {
+    .place__title {
+        width: 100%;
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

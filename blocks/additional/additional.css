@@ -6,4 +6,5 @@
 .additional {
     max-width: 1184px;
     margin: 0 auto 102px auto;
+    display: none;
 }

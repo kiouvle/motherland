@@ -1,0 +1,30 @@
+.video__info {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .video__info {
+        bottom: 2.9vw;
+        left: 2.9vw;
+        right: 2.9vw;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .video__info {
+        bottom: 2vw;
+        left: 2vw;
+        right: 2vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .video__info {
+        bottom: 6vw;
+        left: 6vw;
+        right: 6vw;
+    }
+}

@@ -1,0 +1,11 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+    .place__text {
+        width: 47%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .place__text {
+        width: 49%;
+    }
+}

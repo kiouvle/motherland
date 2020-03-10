@@ -3,3 +3,15 @@
     line-height: 23px;
     margin: 0 0 24px 0;
 }
+
+@media (max-width: 768px) {
+    .comment__quote {
+        margin: 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .comment__quote {
+        margin: 0;
+    }
+}

@@ -1,7 +1,34 @@
 @import url('./__author/comment__author.css');
 @import url('./__image/comment__image.css');
 @import url('./__quote/comment__quote.css');
+@import url('./__column/comment__column.css');
 
 .comment {
     max-width: 382px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .comment {
+        max-width: 28.9vw;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .comment {
+        max-width: 49.7vw;
+    }
+
+    .comment:not(:first-child) {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 425px) {
+    .comment {
+        max-width: 100vw;
+    }
+
+    .comment:not(:first-child) {
+        margin-top: 0px;
+    }
 }

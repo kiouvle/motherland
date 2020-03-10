@@ -8,3 +8,22 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer {
+        margin: 0 5vw;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .footer {
+        margin: 0 3vw;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer {
+        margin: 0 4vw;
+        flex-direction: column;
+    }
+}
